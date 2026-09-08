@@ -13,4 +13,3 @@ function factorialFor(n) {
   return resultado;
 }
 
-console.log(factorialFor(10)); // Resultado: 120
