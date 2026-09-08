@@ -13,3 +13,6 @@ function factorialFor(n) {
   return resultado;
 }
 
+console.log(factorialFor(5)); // Resultado: 120
+console.log(factorialFor(0)); // Resultado: 1
+console.assert(factorialFor(5) === 120, "El factorial de 5 debería ser 120");
