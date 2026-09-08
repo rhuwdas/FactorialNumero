@@ -13,3 +13,5 @@ function factorialFor(n) {
   return resultado;
 }
 
+console.log(factorialFor(5)); // Resultado: 120
+console.log(factorialFor(0)); // Resultado: 1
