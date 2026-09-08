@@ -18,15 +18,4 @@ console.log(factorialFor(0)); // Resultado: 1
 console.assert(factorialFor(5) === 120, "El factorial de 5 debería ser 120");
 
 
-function mostrarSerieFactorial(limite) {
-    let factorial = 1;
-    
-    for (let i = 1; i <= limite; i++) {
-        factorial *= i;
-        console.log(`Factorial de ${i}: ${factorial}`);
-    }
-}
-
-// Ejemplo de uso para ver la serie hasta el número 6
-mostrarSerieFactorial(6);
  
